@@ -43,6 +43,3 @@
 (defn parse-csv-file [file-path]
   (let [content (slurp file-path)]
     (parse-csv-string content)))
-
-(println (parse-csv-file "/Users/vladimir/Desktop/functional-programming4/example.csv"))
-
