@@ -21,7 +21,7 @@ jobs:
         run: cljfmt check
 
       - name: Lint lab4
-        run: clj-kondo --lint src/lab4
+        run: clj-kondo --lint src/parser_combinators
 
       - name: Test lab4
         run: clojure -X:test
